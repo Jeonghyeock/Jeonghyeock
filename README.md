@@ -11,8 +11,6 @@ Frontend Engineer입니다. 화면을 만드는 데서 그치지 않고 제품 �
 
 ## 사이드 프로젝트
 
-모두 Claude Code와 함께 만들었습니다.
-
 | 프로젝트 | 내용 |
 |---|---|
 | [engine-room-assistant](https://github.com/Jeonghyeock/engine-room-assistant) | 선박 기관실 알람 대응 어시스턴트. 로컬 LLM·RAG·MCP로 근거를 붙여 조치를 권고합니다. 교육용 가상 데이터를 씁니다 (FastAPI · MCP Python SDK · Ollama · React) |
