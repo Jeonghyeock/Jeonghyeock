@@ -14,6 +14,8 @@ Frontend Engineer입니다. 화면을 만드는 데서 그치지 않고 제품 �
 | 프로젝트 | 내용 |
 |---|---|
 | [engine-room-assistant](https://github.com/Jeonghyeock/engine-room-assistant) | 선박 기관실 알람 대응 어시스턴트. 로컬 LLM·RAG·MCP로 근거를 붙여 조치를 권고합니다. 교육용 가상 데이터를 씁니다 (FastAPI · MCP Python SDK · Ollama · React) |
+| [seat-booking](https://github.com/Jeonghyeock/seat-booking) | 공연 좌석 예매 서비스. 같은 좌석을 동시에 눌러도 한 번만 팔고, 결제하지 않은 선점은 시간이 지나면 풀고, 같은 요청은 한 번만 처리합니다. 부하 측정과 운영 리허설까지 합니다 (Fastify · Drizzle · PostgreSQL · React) |
+| [event-analytics](https://github.com/Jeonghyeock/event-analytics) | 행동 이벤트 리포트 대시보드. 재전송에도 한 번만 저장하고, 리포트 설정을 안전한 SQL로 바꾸며, 일 단위 파티션과 시간 집계로 수천만 건에서도 답합니다. 퍼널·리텐션을 보고, seat-booking의 예매 이벤트를 outbox로 받습니다 (Fastify · PostgreSQL · React · TanStack Query) |
 | [collab-whiteboard](https://github.com/Jeonghyeock/collab-whiteboard) | WebSocket 기반 실시간 협업 화이트보드. 동시 편집, 끊겨도 이어지는 동기화, 내 작업만 실행 취소 (React · Node ws) |
 | [sketch-quiz](https://github.com/Jeonghyeock/sketch-quiz) | WebSocket 기반 실시간 그림 맞히기 게임. 서버가 진행하는 게임 상태 머신, 사람마다 다른 화면, 획 스트리밍 (React · Node ws) |
 | [bus-review](https://github.com/Jeonghyeock/bus-review) | 경기 버스 실시간 도착·위치 지도와 노선·정류장 리뷰 웹앱 (Next.js · 네이버 지도 · Supabase) |
